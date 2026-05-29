@@ -31,7 +31,6 @@ print("N1 = (presença + trabalhos + entrega de avaliações) / 3 ")
 N1 = (nota_trabalhos + nota_entrega) / 3
 print("{:.2f}".format(N1))
 
-
 total = int(input("Digite o total de avaliações: "))
 media = 0
 
