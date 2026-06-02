@@ -48,12 +48,12 @@ console.log("N2 = Média das avaliações * 0,8 + trabalhos * 0,2 ");
 let N2 = (media_avaliacao * 0.8) + (N1 * 0.2);
 console.log(N2.toFixed(2));
 
-let prova = parseInt(prompt("Sua estimativa para a prova final (N3): "));
+let N3 = parseInt(prompt("Sua estimativa para a prova final (N3): "));
 
 console.log("Agora será calculada a média geral para verificar sua situação (passou, ifa, reprovado): ");
 console.log("Média Final = ((N1 + N2)/2) * 0,85 + N1 * 0,15:");
 
-let media_final = ((N2 + prova) / 2) * 0.85 + (N1 * 0.15);
+let media_final = ((N2 + N3) / 2) * 0.85 + (N1 * 0.15);
 
 if (media_final >= 6) {
     console.log("Aprovado");
